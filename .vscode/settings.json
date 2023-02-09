@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "fsmc.h": "c",
+        "bridgeif.h": "c",
+        "tcpip.h": "c",
+        "netif.h": "c"
+    }
+}
