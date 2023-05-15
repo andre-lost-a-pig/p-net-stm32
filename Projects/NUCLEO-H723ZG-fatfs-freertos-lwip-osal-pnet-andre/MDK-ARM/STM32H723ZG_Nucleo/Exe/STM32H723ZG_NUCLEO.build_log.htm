@@ -21,13 +21,216 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
 Dialog DLL:      TCM.DLL V1.35.1.0
  
 <h2>Project:</h2>
-C:\Users\user\Desktop\github_project\STM32CubeH7-1.10.0-andre\Projects\NUCLEO-H723ZG-fatfs-freertos-lwip-osal-pnet-andre\MDK-ARM\Project.uvprojx
-Project File Date:  12/01/2022
+C:\Users\user\Desktop\p-net-stm32\Projects\NUCLEO-H723ZG-fatfs-freertos-lwip-osal-pnet-andre\MDK-ARM\Project.uvprojx
+Project File Date:  05/15/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'STM32H723ZG_Nucleo'
-"STM32H723ZG_Nucleo\Exe\STM32H723ZG_NUCLEO.axf" - 0 Error(s), 0 Warning(s).
+compiling osal_log.c...
+compiling osal.c...
+..\..\..\Middlewares\Third_Party\osal\src\freertos\osal.c(246): warning:  #223-D: function "osThreadTerminate" declared implicitly
+          osThreadTerminate(NULL);
+..\..\..\Middlewares\Third_Party\osal\src\freertos\osal.c: 1 warning, 0 errors
+compiling app_gsdml.c...
+compiling app_utils.c...
+compiling app_data.c...
+compiling pnal_eth.c...
+..\Src\pn_dev\pnal_eth.c(127): warning:  #188-D: enumerated type mixed with another type
+     return pnal_eth_sys_recv (pbuf, netif);
+..\Src\pn_dev\pnal_eth.c: 1 warning, 0 errors
+compiling pnal.c...
+compiling pnal_udp.c...
+compiling sampleapp_main.c...
+compiling sampleapp_common.c...
+..\Src\pn_dev\sampleapp_common.c(607): warning:  #188-D: enumerated type mixed with another type
+     pnet_data_cfg_t data_cfg = {0};
+..\Src\pn_dev\sampleapp_common.c(1159): warning:  #188-D: enumerated type mixed with another type
+                    APP_LOG_DEBUG (
+..\Src\pn_dev\sampleapp_common.c: 2 warnings, 0 errors
+compiling pf_block_reader.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_block_reader.c(322): warning:  #188-D: enumerated type mixed with another type
+     LOG_DEBUG (
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_block_reader.c(1053): warning:  #188-D: enumerated type mixed with another type
+     *name_of_device_mode = pf_get_bits (temp, 0, 1);
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_block_reader.c: 3 warnings, 0 errors
+compiling pf_block_writer.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_block_writer.c: 1 warning, 0 errors
+compiling pf_cmdmc.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmdmc.c: 1 warning, 0 errors
+compiling pf_cmdev.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmdev.c(2089): warning:  #188-D: enumerated type mixed with another type
+              p_exp_sub->submodule_properties.type,
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmdev.c(3498): warning:  #188-D: enumerated type mixed with another type
+     pnet_data_cfg_t exp_data = {0};
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmdev.c: 3 warnings, 0 errors
+compiling pf_cmio.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmio.c: 1 warning, 0 errors
+compiling pf_cmpbe.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmpbe.c: 1 warning, 0 errors
+compiling pf_cmina.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmina.c: 1 warning, 0 errors
+compiling pf_cmrdr.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmrdr.c: 1 warning, 0 errors
+compiling pf_cmrpc_epm.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmrpc_epm.c: 1 warning, 0 errors
+compiling pf_cmrpc_helpers.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmrpc_helpers.c: 1 warning, 0 errors
+compiling pf_cmrs.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmrs.c: 1 warning, 0 errors
+compiling pf_cmsm.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmsm.c: 1 warning, 0 errors
+compiling pf_cmrpc.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmrpc.c(330): warning:  #188-D: enumerated type mixed with another type
+              pf_ar_state_to_string (p_ar->ar_state));
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmrpc.c(333): warning:  #188-D: enumerated type mixed with another type
+              pf_ar_sync_state_to_string (p_ar->sync_state));
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmrpc.c(345): warning:  #188-D: enumerated type mixed with another type
+              pf_ar_type_to_string (p_ar->ar_param.ar_type));
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmrpc.c(388): warning:  #188-D: enumerated type mixed with another type
+                    pf_iocr_type_to_string (p_iocr->param.iocr_type));
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmrpc.c(1202): warning:  #188-D: enumerated type mixed with another type
+                    LOG_DEBUG (
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmrpc.c(1233): warning:  #188-D: enumerated type mixed with another type
+                 LOG_DEBUG (
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmrpc.c: 7 warnings, 0 errors
+compiling pf_cmsu.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmsu.c: 1 warning, 0 errors
+compiling pf_cmwrr.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_cmwrr.c: 1 warning, 0 errors
+compiling pf_diag.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_diag.c: 1 warning, 0 errors
+compiling pf_pdport.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_pdport.c(1532): warning:  #188-D: enumerated type mixed with another type
+        p_port_config->default_mau_type);
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_pdport.c: 2 warnings, 0 errors
+compiling pf_fspm.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_fspm.c: 1 warning, 0 errors
+compiling pf_port.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pf_port.c: 1 warning, 0 errors
+compiling pnet_api.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\device\pnet_api.c: 1 warning, 0 errors
+compiling pf_bg_worker.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_bg_worker.c: 1 warning, 0 errors
+compiling pf_cpm.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_cpm.c(243): warning:  #68-D: integer conversion resulted in a change of sign
+           p_cpm->rxa[ix][0] = -1; /* "invalid" cycle counter */
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_cpm.c(244): warning:  #68-D: integer conversion resulted in a change of sign
+           p_cpm->rxa[ix][1] = -1;
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_cpm.c: 3 warnings, 0 errors
+compiling pf_alarm.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_alarm.c(1269): warning:  #188-D: enumerated type mixed with another type
+                       p_apmx->block_type_alarm_ack,
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_alarm.c(1285): warning:  #188-D: enumerated type mixed with another type
+                       p_apmx->block_type_alarm_notify,
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_alarm.c(3404): warning:  #188-D: enumerated type mixed with another type
+        alarm_type,
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_alarm.c: 4 warnings, 0 errors
+compiling pf_cpm_driver_sw.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_cpm_driver_sw.c: 1 warning, 0 errors
+compiling pf_eth.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_eth.c: 1 warning, 0 errors
+compiling pf_file.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.c: 1 warning, 0 errors
+compiling pf_dcp.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_dcp.c: 1 warning, 0 errors
+compiling pf_ppm_driver_sw.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_ppm_driver_sw.c: 1 warning, 0 errors
+compiling pf_ppm.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_ppm.c: 1 warning, 0 errors
+compiling pf_lldp.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_lldp.c: 1 warning, 0 errors
+compiling pf_ptcp.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_ptcp.c: 1 warning, 0 errors
+compiling pf_scheduler.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_scheduler.c: 1 warning, 0 errors
+compiling pf_udp.c...
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_file.h(121): warning:  #1-D: last line of file ends without a newline
+  	 
+..\..\..\Middlewares\Third_Party\p-net\src\common\pf_udp.c: 1 warning, 0 errors
+compiling sampleapp_NUCLEO-H723ZG.c...
+..\Src\pn_dev\sampleapp_NUCLEO-H723ZG.c(25): warning:  #188-D: enumerated type mixed with another type
+        HAL_GPIO_WritePin (LD_USER1_GPIO_Port, LD_USER1_Pin, led_state ? 1 : 0);
+..\Src\pn_dev\sampleapp_NUCLEO-H723ZG.c(29): warning:  #188-D: enumerated type mixed with another type
+        HAL_GPIO_WritePin (LD_USER2_GPIO_Port, LD_USER2_Pin, led_state ? 1 : 0);
+..\Src\pn_dev\sampleapp_NUCLEO-H723ZG.c: 2 warnings, 0 errors
+compiling main.c...
+..\Src\main.c(125): warning:  #167-D: argument of type "void (*)(const void *)" is incompatible with parameter of type "osThreadFunc_t"
+    defaultTaskHandle = osThreadNew(PNetThread, NULL, &defaultTask_attributes);
+..\Src\main.c(422): warning:  #177-D: function "MX_USART1_UART_Init"  was declared but never referenced
+  static void MX_USART1_UART_Init(void)
+..\Src\main.c(139): warning:  #177-D: function "StartThread"  was declared but never referenced
+  static void StartThread(void const *argument)
+..\Src\main.c(259): warning:  #177-D: function "StartThread_lwip"  was declared but never referenced
+  static void StartThread_lwip(void const * argument)
+..\Src\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=261844 RO-data=23976 RW-data=19660 ZI-data=188376  
+"STM32H723ZG_Nucleo\Exe\STM32H723ZG_NUCLEO.axf" - 0 Error(s), 59 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -41,7 +244,7 @@ Package Vendor: Keil
   D:\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.4.3\Drivers\CMSIS\Device\ST\STM32H7xx\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:09
 </pre>
 </body>
 </html>
