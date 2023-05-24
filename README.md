@@ -1,9 +1,9 @@
 # p-net-stm32
 In this project, I built p-net in Keil5.
 The whole project is based on STM32CubeH7 MCU Firmware Package(https://github.com/STMicroelectronics/STM32CubeH7/tree/v1.10.0). I added some middleware and replaced the project folder.
-This project is in Projects\NUCLEO-H723ZG-fatfs-freertos-lwip-osal-pnet-andre. I highly recommend run it using Keil5.
+This project is located at Projects\NUCLEO-H723ZG-fatfs-freertos-lwip-osal-pnet-andre. I highly recommend running it using Keil5.
 
-reference:
+## reference:
 
 p-net
 -----
